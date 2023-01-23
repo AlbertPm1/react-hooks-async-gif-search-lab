@@ -6,8 +6,8 @@ import { useState, useEffect } from "react";
 function GifListContainer (){
     const[gif, setGif] = useState([])
     const[search, setSearch] = useState("")
-    //   API key to a variable
-    const myApiKey= "8dnjIQswNVaihW9B296nmf9g9EfBtIZg";
+    //   My generated API key to a variable
+    const myApiKey= "9YZgKhgDCkBRsWVJqAN44Y8Erae5NX8C";
 
     // fire a function to begin with.
     useEffect(()=>{
